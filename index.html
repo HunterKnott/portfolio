@@ -7,18 +7,18 @@
   <style>
     h1{
       text-align: center;
-      background-color: #071630; /* Replace with your desired background color */
-      color: white; /* Set text color to white for contrast */
-      padding: 10px; /* Add padding for spacing */
+      background-color: #071630;
+      color: white;
+      padding: 10px;
     }
     .circular-image {
-      width: 100px; /* Adjust the width and height as needed */
+      width: 100px;
       display: flex;
       height: 100px;
-      border-radius: 50%; /* Makes the image circular */
+      border-radius: 50%;
       display: block;
-      margin: 30px auto; /* Centers the image horizontally */
-      border: 8px solid white; /* Add a 2px white border around the image */
+      margin: 30px auto;
+      border: 8px solid white;
     }
     #projects_section {
       margin: 0px;
@@ -40,26 +40,27 @@
       color: black;
       background-color: white;
       border: 2px solid black;
-      border-radius: 50px; /* Set a border-radius to make it round */
-      transition: background-color 0.3s, border-radius 0.3s; /* Add border-radius to the transition */
+      border-radius: 50px;
+      transition: background-color 0.3s, border-radius 0.3s;
       font-size: 18px;
     }
     .top_button:hover {
       background-color: #e0e0e0;
-      border-radius: 60px; /* Set a larger border-radius on hover for a smoother transition */
-      transform: scale(1.05); /* Expand the button slightly on hover */
+      border-radius: 60px;
+      transform: scale(1.05);
     }
     body {
       background-color: #f0f0f0;
     }
     body, h1, h2, .button {
-      font-family: 'Courier New', cursive; /* Set the font-family to Comic Sans MS */
+      font-family: 'Courier New', cursive;
     }
     h3 {
       text-align: left;
     }
     .project_padding {
-      padding: 20px 250px;
+      margin-top: 20px;
+      margin-bottom: 50px;
     }
     .project {
       display: grid;
@@ -68,11 +69,11 @@
       background-color: #e5e7eb;
       border: 1px solid #C9C9C9;
       border-radius: 5px;
-      max-width: 700px; /* Set a maximum width for the project div */
-      width: 100%; /* Ensure the div takes the full width within its container */
-      box-sizing: border-box; /* Include padding and border in the element's total width and height */
-      margin: 30px; /* Center the box itself horizontally */
-      margin-left: 100px;
+      max-width: 700px;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 30px;
+      margin: auto;
       padding-left: 10px;
     }
     .desc {
@@ -85,8 +86,8 @@
     .project_image {
       grid-row: 1 / 5;
       grid-column: 2 / 3;
-      width: 344px;
-      height: 280px;
+      width: 21.5em;
+      height: 20em;
     }
     .tools {
       grid-row: 3 / 5;
@@ -109,14 +110,14 @@
       color: black;
       background-color: white;
       border: 2px solid #8a8a8a;
-      border-radius: 50px; /* Set a border-radius to make it round */
-      transition: background-color 0.3s, border-radius 0.3s; /* Add border-radius to the transition */
+      border-radius: 50px;
+      transition: background-color 0.3s, border-radius 0.3s;
       font-size: 18px;
     }
     .project_button:hover {
       background-color: #e0e0e0;
-      border-radius: 60px; /* Set a larger border-radius on hover for a smoother transition */
-      transform: scale(1.05); /* Expand the button slightly on hover */
+      border-radius: 60px;
+      transform: scale(1.05);
     }
     ul {
       list-style: none;
@@ -190,7 +191,7 @@
         <img src="Images/Self1.png" alt="Hunter's Image" class="circular-image">
         <div>Hi there, I'm Hunter Knott.</div>
         <div>I'm a Computer Science undergrad at Utah Valley University.</div>
-        <div>I'm a runner, painter, podcast junkie, and lover of Peruvian food.</div>
+        <div>I'm a runner, podcast junkie, and lover of Peruvian food.</div>
         <div>
           <a href="https://www.linkedin.com/in/hunter-knott" target="_blank" class="top_button">LinkedIn</a>
           <a href="https://github.com/HunterKnott" target="_blank" class="top_button">Github</a>
@@ -215,7 +216,7 @@
         </div>
         <div class="project_padding">
           <div class="project">
-            <h3>SQL Cafe Database</h3>
+            <h3>Cafe Database</h3>
             <p class="desc">A database created to hold information for a cafe business. Written by 3 partners and I in a database class.</p>
             <img class="project_image" src="Images/DatabaseDiagram.png" alt="Database Diagram">
             <ul class="tools">
@@ -228,8 +229,8 @@
         </div>
         <div class="project_padding">
           <div class="project">
-            <h3>Python Word Game</h3>
-            <p class="desc">A word guessing game where a random word is picked from a list, and the user must write every word that the picked word can make.</p>
+            <h3>Word Guessing Game</h3>
+            <p class="desc">A game where a random word is picked from a list, and the user must write every word that the picked word can make.</p>
             <img class="project_image" src="Images/WordGame.png" alt="Word Game">
             <ul class="tools">
               <li>
@@ -241,7 +242,7 @@
         </div>
         <div class="project_padding">
           <div class="project">
-            <h3>Python DES Encryption</h3>
+            <h3>DES Message Cipher</h3>
             <p class="desc">Implementation of the DES Encryption algorithm that takes user input with a specified key, then returns the encrypted text.</p>
             <img class="project_image" src="Images/DES.png" alt="DES">
             <ul class="tools">
@@ -296,6 +297,10 @@
         <li class="skill_li">
           <img class="skill_icon" src="Images/icons8-git.svg" alt="Git">
           <figcaption>Git</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-raspberry-pi.svg" alt="Raspberry Pi">
+          <figcaption>Raspberry Pi</figcaption>
         </li>
       </ul>
     </section>
