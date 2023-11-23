@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="resume.css"> -->
+  <title>Portfolio</title>
+  <style>
+    h1{
+      text-align: center;
+      background-color: #071630; /* Replace with your desired background color */
+      color: white; /* Set text color to white for contrast */
+      padding: 10px; /* Add padding for spacing */
+    }
+    .circular-image {
+      width: 100px; /* Adjust the width and height as needed */
+      display: flex;
+      height: 100px;
+      border-radius: 50%; /* Makes the image circular */
+      display: block;
+      margin: 30px auto; /* Centers the image horizontally */
+      border: 8px solid white; /* Add a 2px white border around the image */
+    }
+    #projects_section {
+      margin: 0px;
+      margin-bottom: 70px;
+      align-items: center;
+      justify-content: center;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 0px;
+    }
+    .top_button {
+      display: inline-block;
+      padding: 20px 30px;
+      margin: 30px -5px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 50px; /* Set a border-radius to make it round */
+      transition: background-color 0.3s, border-radius 0.3s; /* Add border-radius to the transition */
+      font-size: 18px;
+    }
+    .top_button:hover {
+      background-color: #e0e0e0;
+      border-radius: 60px; /* Set a larger border-radius on hover for a smoother transition */
+      transform: scale(1.05); /* Expand the button slightly on hover */
+    }
+    body, h1, h2, .button {
+      font-family: 'Courier New', cursive; /* Set the font-family to Comic Sans MS */
+    }
+    h3 {
+      text-align: left;
+    }
+    .project_padding {
+      padding: 20px 250px;
+    }
+    .project {
+      display: grid;
+      grid-template-rows: 10% 40% 20% 30%;
+      grid-template-columns: 50% 50%;
+      background-color: #e5e7eb;
+      border: 1px solid #C9C9C9;
+      border-radius: 5px;
+      max-width: 700px; /* Set a maximum width for the project div */
+      width: 100%; /* Ensure the div takes the full width within its container */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+      margin: 30px; /* Center the box itself horizontally */
+      margin-left: 100px;
+      padding-left: 10px;
+    }
+    .desc {
+      grid-row: 2 / 5;
+      grid-column: 1 / 2;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      margin-bottom: 50px;
+    }
+    .project_image {
+      grid-row: 1 / 5;
+      grid-column: 2 / 3;
+      width: 344px;
+      height: 280px;
+    }
+    .tools {
+      grid-row: 3 / 5;
+      grid-column: 1 / 2;
+    }
+    .icon {
+      grid-row: 1 / 5;
+      grid-column: 2 / 3;
+      width: 100%;
+      height: 100%;
+    }
+    .project_button {
+      grid-row: 4 / 5;
+      grid-column: 1 / 2;
+      padding: 15px 10px;
+      margin: 10px 30px;
+      height: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      border: 2px solid #8a8a8a;
+      border-radius: 50px; /* Set a border-radius to make it round */
+      transition: background-color 0.3s, border-radius 0.3s; /* Add border-radius to the transition */
+      font-size: 18px;
+    }
+    .project_button:hover {
+      background-color: #e0e0e0;
+      border-radius: 60px; /* Set a larger border-radius on hover for a smoother transition */
+      transform: scale(1.05); /* Expand the button slightly on hover */
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+    li {
+      display: inline-block;
+      height: 45px;
+    }
+    .tools {
+      margin-bottom: 30px;
+    }
+    #skills_section {
+      margin-bottom: 70px;
+    }
+    #skills_list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+    .skill_li {
+      padding-bottom: 70px;
+    }
+    .skill_icon {
+      height: 80px;
+      width: 80px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    figcaption {
+      text-align: center;
+    }
+    #about_section {
+      text-align: left;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 70px;
+    }
+    .about {
+      display: flex;
+      width: 50%;
+      margin: 30px auto;
+    }
+    .about_desc {
+      width: 40%;
+      margin-right: 10px;
+      margin-bottom: 60px;
+    }
+    .about_img {
+      width: 50%;
+      height: 80%;
+      border: 1px solid black;
+    }
+    .contact {
+      margin: 20px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section id="top">
+      <h1 id="Blah" class="center-text">
+        <img src="Images/Self1.png" alt="Hunter's Image" class="circular-image">
+        <div>Hi there, I'm Hunter Knott.</div>
+        <div>I'm a Computer Science undergrad at Utah Valley University.</div>
+        <div>I'm a runner, painter, podcast junkie, and lover of Peruvian food.</div>
+        <div>
+          <a href="https://www.linkedin.com/in/hunter-knott" target="_blank" class="top_button">LinkedIn</a>
+          <a href="https://github.com/HunterKnott" target="_blank" class="top_button">Github</a>
+        </div>
+      </h1>
+    </section>
+    <section id="projects_section">
+      <h2>Projects</h2>
+      <div>
+        <div class="project_padding">
+          <div class="project">
+            <h3>Photo Compressor</h3>
+            <p class="desc">Uses Discrete Cosine Transform algorithm to compress images to a specified degree.</p>
+            <img class="project_image" src="Images/ImageCompression.png" alt="Image Compression">
+            <ul class="tools">
+              <li>
+                <img class="icon" src="Images/icons8-matlab.svg" alt="Matlab">
+              </li>
+            </ul>
+            <a href="https://github.com/HunterKnott/ImageCompression" target="_blank" class="project_button">GitHub</a>
+          </div>
+        </div>
+        <div class="project_padding">
+          <div class="project">
+            <h3>SQL Cafe Database</h3>
+            <p class="desc">A database created to hold information for a cafe business. Written by 3 partners and I in a database class.</p>
+            <img class="project_image" src="Images/DatabaseDiagram.png" alt="Database Diagram">
+            <ul class="tools">
+              <li>
+                <img class="icon" src="Images/icons8-mysql.svg" alt="MySQL">
+              </li>
+            </ul>
+            <a href="https://github.com/simonalligatorsmith/cafesql" target="_blank" class="project_button">GitHub</a>
+          </div>
+        </div>
+        <div class="project_padding">
+          <div class="project">
+            <h3>Python Word Game</h3>
+            <p class="desc">A word guessing game where a random word is picked from a list, and the user must write every word that the picked word can make.</p>
+            <img class="project_image" src="Images/WordGame.png" alt="Word Game">
+            <ul class="tools">
+              <li>
+                <img class="icon" src="Images/icons8-python.svg" alt="Python">
+              </li>
+            </ul>
+            <a href="https://github.com/HunterKnott/CS3270/tree/main/WordGame" target="_blank" class="project_button">GitHub</a>
+          </div>
+        </div>
+        <div class="project_padding">
+          <div class="project">
+            <h3>Python DES Encryption</h3>
+            <p class="desc">Implementation of the DES Encryption algorithm that takes user input with a specified key, then returns the encrypted text.</p>
+            <img class="project_image" src="Images/DES.png" alt="DES">
+            <ul class="tools">
+              <li>
+                <img class="icon" src="Images/icons8-python.svg" alt="Python">
+              </li>
+            </ul>
+            <a href="https://github.com/HunterKnott/CS3270/tree/main/DES" target="_blank" class="project_button">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills_section">
+      <h2>Skills</h2>
+      <ul id="skills_list">
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-java.svg" alt="Java">
+          <figcaption>Java</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-python.svg" alt="Python">
+          <figcaption>Python</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-cpp.svg" alt="C++">
+          <figcaption>C++</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-html.svg" alt="HTML">
+          <figcaption>HTML</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-css.svg" alt="CSS">
+          <figcaption>CSS</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-javascript.svg" alt="JavaScript">
+          <figcaption>JavaScript</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-matlab.svg" alt="MatLab">
+          <figcaption>MatLab</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-r-project.svg" alt="R">
+          <figcaption>R</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-mysql.svg" alt="MySQL">
+          <figcaption>MySQL</figcaption>
+        </li>
+        <li class="skill_li">
+          <img class="skill_icon" src="Images/icons8-git.svg" alt="Git">
+          <figcaption>Git</figcaption>
+        </li>
+      </ul>
+    </section>
+    <section id="about_section">
+      <h2>About Me</h2>
+      <div class="about">
+        <h3 class="about_desc">I have a wonderful family. I'm the youngest of 3 brothers, and an uncle of 1 niece.</h3>
+        <img class="about_img" src="Images/SelfFamily.jpeg" alt="Family">
+      </div>
+      <div class="about">
+        <h3 class="about_desc">I've served a proselyting mission for the Church of Jesus Christ of Latter-Day Saints in Peru and California.</h3>
+        <img class="about_img" src="Images/SelfMission.jpeg" alt="Mission">
+      </div>
+      <div class="about">
+        <h3 class="about_desc">I love going on hiking trips with friends.</h3>
+        <img class="about_img" src="Images/SelfHiking.jpeg" alt="Hiking">
+      </div>
+    </section>
+    <section id="contact_section">
+      <h2>Contact Information</h2>
+      <h3 class="contact">Email: hunterknott00@gmail.com</h3>
+      <h3 class="contact">Phone: 801-833-1606</h3>
+    </section>
+  </main>
+</body>
+<!-- <script src="resume.js"></script> -->
+</html>
