@@ -1,5 +1,5 @@
 import Head from "../Head";
-import Card from "./Card";
+import Card from "../Card";
 
 export default function Page() {
     return (
@@ -7,6 +7,7 @@ export default function Page() {
             <Head options={["App", "Work", "About", "Contact"]}/>
             <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full min-h-screen">
                 <div className="flex flex-col items-center gap-10">
+                    <h1 className="text-5xl font-bold underline text-gray-800">My Projects</h1>
                     <Card
                         title="Fantasy Foyer"
                         text="An escape room game written at a hackathon, deployed on Vercel. Escape if you can!"
