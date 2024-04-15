@@ -10,8 +10,8 @@ export default function Card({ title, text, links, image, icons}) {
     
     const showLinks = links.map((lnk, index) =>
         <button
-        key={index}
-        className="px-3 py-1 text-pink-700 border-2 border-pink-500 rounded-full hover:scale-105 transform transition-all duration-300"
+            key={index}
+            className="px-3 py-1 text-pink-700 border-2 border-pink-500 rounded-full hover:scale-105 transform transition-all duration-300"
             onClick={() => openUrl(lnk.url)}>{lnk.text}
         </button>
     );
