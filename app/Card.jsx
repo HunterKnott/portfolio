@@ -8,22 +8,28 @@ export default function Card({ title, text, links, image, icons}) {
         }
     };
     
-    const showLinks = links.map((lnk, index) =>
-        <button
-            key={index}
-            className="px-3 py-1 text-pink-700 border-2 border-pink-500 rounded-full hover:scale-105 transform transition-all duration-300"
-            onClick={() => openUrl(lnk.url)}>{lnk.text}
-        </button>
-    );
+    let showLinks = null;
+    if (links) {
+        showLinks = links.map((lnk, index) => (
+                <button
+                    key={index}
+                    className="px-3 py-1 text-pink-700 border-2 border-pink-500 rounded-full hover:scale-105 transform transition-all duration-300"
+                    onClick={() => openUrl(lnk.url)}>{lnk.text}
+                </button>
+        ));
+    }
     
-    const showIcons = icons.map((icon, index) => (
-        <img
-            key={index}
-            src={icon}
-            alt="Icon"
-            className="w-12 h-12"
-        />
-    ))
+    let showIcons = null
+    if (icons) {
+        showIcons = icons.map((icon, index) => (
+            <img
+                key={index}
+                src={icon}
+                alt="Icon"
+                className="w-12 h-12"
+            />
+        ))
+    }
 
     return (
         <div className="flex flex-row w-1/2 h-96 bg-gray-200 border rounded-lg border-pink-300">
