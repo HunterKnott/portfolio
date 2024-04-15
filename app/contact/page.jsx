@@ -17,13 +17,13 @@ export default function Page() {
         <main className="flex min-h-screen flex-col items-center bg-gray-100">
             <Head options={["App", "Work", "Projects", "About"]}/>
             <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full h-screen px-60">
-                <div className="w-full h-full flex flex-row gap-6 border-2 bg-yellow-50 border-pink-300 pt-6">
+                <div className="w-full h-full flex flex-row gap-6 border-2 bg-yellow-50 border-pink-300 rounded-lg pt-6">
                     <div className="w-1/2 px-8 py-10 items-center content-center">
-                        <img src="ProjectImages/Self2.jpeg" alt="Painting" className="h-full" />
+                        <img src="ProjectImages/Self2.jpeg" alt="Painting" className="h-full rounded-lg" />
                     </div>
                     <div className="flex flex-col gap-4 w-full">
                         <h1 className="text-5xl font-bold text-gray-800 py-6">Contact Me</h1>
-                        <div className="flex flex-row flex-grow border-l-2 border-t-2 border-pink-300">
+                        <div className="flex flex-row flex-grow border-l-2 border-t-2 border-pink-300 rounded-tl-lg">
                             <div className="flex flex-col px-10 py-4">
                                 <label htmlFor="name" className="text-gray-800 font-bold">Name</label>
                                 <input
