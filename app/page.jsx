@@ -12,7 +12,7 @@ export default function Home() {
             </div>
             <div className="container flex flex-col gap-4 w-5/12 pr-28 py-12">
                 <h1 className="text-4xl font-bold text-gray-800">Hi there, nice to meet you</h1>
-                <h1 className="text-4xl font-bold text-gray-800">I'm Hunter Knott</h1>
+                <h1 className="text-4xl font-bold text-gray-800">I&apos;m Hunter Knott</h1>
                 <h1 className="text-4xl font-bold text-gray-800">Computer Science Major</h1>
                 <h1 className="text-4xl font-bold text-gray-800">Software Developer</h1>
                 <p className="text-lg text-gray-600 mt-10">I build software solutions, gather data insights, engage in lifelong learning, and love doing it</p>

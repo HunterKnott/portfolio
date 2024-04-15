@@ -27,6 +27,7 @@ export default function Skill({ text, icon, color, experience }) {
             <div className="flex flex-wrap gap-6 justify-center">
                 {exp.icons.map((icon, idx) => (
                     <button
+                        key={idx}
                         onClick={() => handleIconClick(icon.text)}
                         className="hover:scale-125 transition-transform duration-300">
                         <img key={idx} src={icon.path} alt="icon" className="w-20 h-20" />
