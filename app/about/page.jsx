@@ -16,12 +16,28 @@ export default function Page() {
                     <Card
                         title="My Mission"
                         text="I've served a proselyting mission for the Church of Jesus Christ of Latter-Day Saints in Peru and California."
+                        links={[{ url: "https://www.churchofjesuschrist.org/comeuntochrist/lp/homepage-1", text: "Website" }]}
                         image="ProjectImages/SelfMission.jpeg"
                     />
                     <Card
                         title="My Friends"
                         text="I love going on hiking trips with friends."
                         image="ProjectImages/SelfHiking.jpeg"
+                    />
+                    <Card
+                        title="Painting"
+                        text="I really enjoy painting when I have some extra time. Here's one I did recently."
+                        image="ProjectImages/MoonPainting.jpeg"
+                    />
+                    <Card
+                        title="Music"
+                        text="I listen to lots of music at any spare moment I have. I especially enjoy folk and indie songs."
+                        image="ProjectImages/SpotifySongs.jpeg"
+                    />
+                    <Card
+                        title="Dungeons & Dragons"
+                        text="Playing D&D with friends is one of my favorite pastimes. This is my current character, a monk named Pachamancha of Hanantambo."
+                        image="ProjectImages/DnDCharacter.jpeg"
                     />
                 </div>
             </div>

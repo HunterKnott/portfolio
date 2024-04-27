@@ -37,7 +37,7 @@ export default function Page() {
                                 experience={[{ type: "Languages", icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned, way back in high school. It brings back nostalgia to write with it." },
                                                                         { path: "ProjectIcons/Kotlin.svg", text: "I've recently been picking up Kotlin to suplement my Java-esque app development." },
                                                                         { path: "ProjectIcons/Python.svg", text: "Python is a very useful language, especially for scientific computing and machine learning. "},
-                                                                        { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java." },
+                                                                        { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java. I've used it to make some games with the Unity engine." },
                                                                         { path: "ProjectIcons/Cpp.svg", text: "I'm currently keeping up on my C++ to prepare for an upcoming Operating Systems class I'll be taking." }] }
                                         ]}
                             /></li>
