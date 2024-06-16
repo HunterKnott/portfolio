@@ -4,11 +4,11 @@ import LinkButton from './LinkButton';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-100">
-        <Head options={["Work", "Projects", "About", "Contact"]}/>
+        <Head options={["Work", "Education", "About", "Contact"]}/>
         <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full h-screen">
           <div className="flex flex-row">
             <div className="container w-5/12 ml-20">
-                <img src="HomeImages/Self1.png" alt="Portrait" className="mx-auto mt-8 mb-8 rounded-lg shadow-lg w-96 h-96" />
+                <img src="HomeImages/Self1.png" alt="Portrait" className="mx-auto mt-8 mb-8 rounded-lg shadow-lg lg:w-96 lg:h-96" />
             </div>
             <div className="container flex flex-col gap-4 w-5/12 pr-28 py-12">
                 <h1 className="text-4xl font-bold text-gray-800">Hi there, nice to meet you</h1>

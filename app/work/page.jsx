@@ -1,17 +1,16 @@
-'use client';
-
 import Head from "../Head";
 import Card from "../Card";
-import Skill from "./Skill";
+import Skill from "../Skill";
 
 export default function Page() {
     return (
         <div className="relative">
             {/* <Background /> */}
             <main className="flex flex-col min-h-screen items-center relative z-10">
-                <Head options={["App", "Projects", "About", "Contact"]}/>
-                <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full min-h-screen">
-                    <div className="flex flex-col items-center">
+                <Head options={["App", "Education", "About", "Contact"]}/>
+                <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full min-h-screen flex flex-col items-center">
+                    <h1 className="text-5xl font-bold underline text-gray-800 pb-8">My Work Experience</h1>
+                    {/* <div className="flex flex-col items-center">
                     <h1 className="text-5xl font-bold underline text-gray-800">My Skills</h1>
                         <ul className="w-1/2 flex flex-col gap-10 py-6">
                             <li><Skill
@@ -92,14 +91,21 @@ export default function Page() {
                                         ]}
                             /></li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col items-center gap-10">
+                        <Card
+                            title="Flex Ltd."
+                            text="Spent the summer as a test engineering intern. Worked with big data tools to increase efficiency in the production of cutting edge server technology."
+                            links={[{ url: "https://flex.com/", text: "Website" }]}
+                            image="ProjectImages/FlexPicture.jpg"
+                            icons={["ProjectIcons/Linux.png","ProjectIcons/Python.svg", "ProjectIcons/ElasticSearch.svg", "ProjectIcons/Jira.svg"]}
+                        />
                         <Card
                             title="ION Solar"
                             text="Worked with the Design Validation team to develop and test Salesforce CRM features to automate loan audits and change order processing."
                             links={[{ url: "https://www.ionsolar.com/", text: "Website" }]}
                             image="ProjectImages/IonPicture.jpeg"
-                            icons={["ProjectIcons/IonSolar.png", "ProjectIcons/Salesforce.svg"]}
+                            icons={["ProjectIcons/IonSolar.png", "ProjectIcons/Salesforce.svg", "ProjectIcons/Trello.svg"]}
                         />
                     </div>
                 </div>
