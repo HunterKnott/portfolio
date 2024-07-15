@@ -15,7 +15,7 @@ export default function Page() {
 
     return (
         <main className="flex min-h-screen flex-col items-center bg-gray-100">
-            <Head options={["App", "Work", "Educaation", "About"]}/>
+            <Head options={["App", "Work", "Education", "About"]}/>
             <div className="bg-gradient-to-r from-green-200 via-green-50 to-green-200 py-36 w-full h-screen px-60">
                 <div className="w-full h-full flex flex-row gap-6 border-2 bg-yellow-50 border-pink-300 rounded-lg pt-6">
                     <div className="w-1/2 px-8 py-10 items-center content-center">
