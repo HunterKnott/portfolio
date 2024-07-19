@@ -32,8 +32,8 @@ export default function Page() {
                             icon="ProjectIcons/Binary.png"
                             color="blue"
                             experience={[{ type: "Languages", icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned, way back in high school. It brings back nostalgia to write with it." },
-                                                                    { path: "ProjectIcons/Kotlin.svg", text: "I've recently been picking up Kotlin to suplement my Java-esque app development." },
-                                                                    { path: "ProjectIcons/Python.svg", text: "Python is a very useful language, especially for scientific computing and machine learning. "},
+                                                                    { path: "ProjectIcons/Kotlin.svg", text: "At my current internship, I've had the opportunity to develop an Android app with a team in Kotlin to make server testing data more easily accessible." },
+                                                                    { path: "ProjectIcons/Python.svg", text: "I also used a lot of Python at my internship for data engineering and machine learning." },
                                                                     { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java. I've used it to make some games with the Unity engine." },
                                                                     { path: "ProjectIcons/Cpp.svg", text: "I'm currently keeping up on my C++ to prepare for an upcoming Operating Systems class I'll be taking." }] }
                                     ]}
@@ -58,13 +58,13 @@ export default function Page() {
                             icon="ProjectIcons/Database.png"
                             color="green"
                             experience={[{ type: "Python", icons: [{ path: "ProjectIcons/DJango.svg", text: "I've used DJango to assist in various backend API endpoints." },
-                                                                    { path: "ProjectIcons/Flask.png", text: "I've also developed APIs with the Flask framework." },
-                                                                    { path: "ProjectIcons/ElasticSearch.svg", text: "I'm using ElasticSearch at my current internship for data analytics." }] },
+                                                                    { path: "ProjectIcons/Flask.png", text: "I've also developed APIs with the Flask framework." },] },
                                         { type: "BaaS", icons: [{ path: "ProjectIcons/Firebase.svg", text: "I'm familiar with Google's backend services on Firebase." },
                                                                 { path: "ProjectIcons/Supabase.png", text: "I've used Supabase's backend seervices for several full-stack projects." },] },
                                         { type: "Databases", icons: [{ path: "ProjectIcons/MySQL.svg", text: "MySQL was the first database system I learned. It's a good foundation to get started." },
                                                                     { path: "ProjectIcons/SQLite.png", text: "Interfacing with a SQL database via SQLite is clean and simple. Very helpful for backend development." },
                                                                     { path: "ProjectIcons/Postgres.svg", text: "I've used PostgreSQL databases in several web applications, thanks to its integration with Supabase's backend services." },
+                                                                    { path: "ProjectIcons/ElasticSearch.svg", text: "I'm using ElasticSearch at my current internship for data analytics." },
                                                                     { path: "ProjectIcons/MongoDB.svg", text: "Writing transactions in MongoDB is intuitive for a software developer. I love the idea of unstructured data in the form of things like documents." },
                                                                     { path: "ProjectIcons/Redis.svg", text: "Caching through tools like Redis is becoming ever more important as the web gets even faster, and as our web expectations become more impatient." },
                                                                     { path: "ProjectIcons/Cassandra.png", text: "While I've worked with small amounts of data on Cassandra, I'm interested to eventually see the columner's true potential with big data." },
