@@ -99,7 +99,7 @@ export default function Page() {
                             text="Building a tech startup with co-founders. We're working on a product called ClrDoc, where optometrists can easily integrate E-commerce with their websites."
                             links={[{ url: "https://clrdoc.com/", text: "ClrDoc" }, { url: "https://sandbox.ing/", text: "Sandbox" }]}
                             image="ProjectImages/SandboxPicture.png"
-                            icons={["ProjectIcons/React.png", "ProjectIcons/NodeJs.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Supabase.png"]}
+                            icons={["ProjectIcons/React.png", "ProjectIcons/NodeJS.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Supabase.png"]}
                         />
                         <Card
                             title="Flex Ltd."
