@@ -97,7 +97,7 @@ export default function Page() {
                             title="Flex Ltd."
                             text="Spent the summer as a test engineering intern. Worked with big data tools to increase efficiency in the production of cutting edge server technology."
                             links={[{ url: "https://flex.com/", text: "Website" }]}
-                            image="ProjectImages/FlexPicture.jpg"
+                            image="ProjectImages/FlexPicture.png"
                             icons={["ProjectIcons/Linux.png", "ProjectIcons/ElasticSearch.svg", "ProjectIcons/Python.svg", "ProjectIcons/Kotlin.svg"]}
                         />
                         <Card
