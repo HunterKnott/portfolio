@@ -94,7 +94,16 @@ export default function Page() {
                     </div> */}
                     <div className="flex flex-col items-center gap-10">
                         <Card
+                            title="Sandbox"
+                            timeline="May 2024 - Current"
+                            text="Building a tech startup with co-founders. We're working on a product called ClrDoc, where optometrists can easily integrate E-commerce with their websites."
+                            links={[{ url: "https://clrdoc.com/", text: "ClrDoc" }, { url: "https://sandbox.ing/", text: "Sandbox" }]}
+                            image="ProjectImages/SandboxPicture.png"
+                            icons={["ProjectIcons/React.png", "ProjectIcons/NodeJs.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Supabase.png"]}
+                        />
+                        <Card
                             title="Flex Ltd."
+                            timeline="May 2024 - Aug. 2024"
                             text="Spent the summer as a test engineering intern. Worked with big data tools to increase efficiency in the production of cutting edge server technology."
                             links={[{ url: "https://flex.com/", text: "Website" }]}
                             image="ProjectImages/FlexPicture.png"
@@ -102,6 +111,7 @@ export default function Page() {
                         />
                         <Card
                             title="ION Solar"
+                            timeline="Apr. 2022 - Oct. 2023"
                             text="Worked with the Design Validation team to develop and test Salesforce CRM features to automate loan audits and change order processing."
                             links={[{ url: "https://www.ionsolar.com/", text: "Website" }]}
                             image="ProjectImages/IonPicture.jpeg"

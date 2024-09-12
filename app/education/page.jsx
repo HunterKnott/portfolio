@@ -90,7 +90,7 @@ export default function Page() {
                         /></li>
                     </ul>
                 </div>
-                <div className="flex flex-col items-center gap-10">
+                <div className="flex flex-col items-center">
                     <h2 className="text-4xl font-bold underline text-gray-800">Projects</h2>
                     <ul className="w-full flex flex-col gap-10 py-6 items-center">
                         <Card
