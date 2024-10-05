@@ -44,7 +44,8 @@ export default function Page() {
                             color="yellow"
                             experience={[{ type: "Basics", icons: [{ path: "ProjectIcons/HTML.svg", text: "HTML is pretty simple and straightforward. I learned the basics of HTML5 my first semester of college, and I loved the class." },
                                                                     { path: "ProjectIcons/CSS.svg", text: "It's fun to work with CSS and see the visual changes in a website's many moving parts." },
-                                                                    { path: "ProjectIcons/Javascript.svg", text: "Javascript is one of my most confident languages. It's wonderful to see a website come to life with interactivity and dynamic features." }] },
+                                                                    { path: "ProjectIcons/Javascript.svg", text: "Javascript is one of my most confident languages. It's wonderful to see a website come to life with interactivity and dynamic features." },
+                                                                    { path: "ProjectIcons/Typescript.png", text: "My first Typescript project was doing a full transplant from a Javascript website. It felt like performing surgery." }] },
                                         { type: "Tools", icons: [{ path: "ProjectIcons/NodeJS.png", text: "Javascript makes a great backend for a web application when you can use Next.js." },
                                                                 { path: "ProjectIcons/Figma.svg", text: "Designing a website UI is so much better with Figma to do much of the heavy lifting." }] },
                                         { type: "Frameworks", icons: [ { path: "ProjectIcons/Bootstrap.png", text: "Bootstrap is very helpful for getting quick and easy components with good CSS." },
