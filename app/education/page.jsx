@@ -19,8 +19,7 @@ export default function Page() {
                                                                 { path: "ProjectIcons/Jupyter.png", text: "Jupyter has been very helpful for doing scientific computing with machine learning." },
                                                                 { path: "ProjectIcons/VSCode.svg", text: "VSCode is where I keep most of my codebase and projects, it's very versatile." }] },
                                         { type: "Agile", icons: [{ path: "ProjectIcons/Jira.svg", text: "I use Jira at my current internship for project management and organization." },
-                                                                { path: "ProjectIcons/Trello.svg", text: "While working at Ion Solar, our team used Trello as a reference for all important company and process information." },
-                                                                { path: "ProjectIcons/Linear.webp", text: "I've recently been trying out a new project management system called Linear to see how it compares to Atlassian products." }] },
+                                                                { path: "ProjectIcons/Trello.svg", text: "While working at Ion Solar, our team used Trello as a reference for all important company and process information." }] },
                                         { type: "Tools", icons: [{ path: "ProjectIcons/Linux.png", text: "I'm using Linux at my current internship for scripting and system administration." },
                                                                 { path: "ProjectIcons/Git.svg", text: "I've used GitHub ever since high school to keep track of my achievements in software development." },
                                                                 { path: "ProjectIcons/AWS.svg", text: "I have a basic knowledge of navigating the AWS dashboard, as well as building and deploying a basic website." },
@@ -31,11 +30,12 @@ export default function Page() {
                             text="Coding"
                             icon="ProjectIcons/Binary.png"
                             color="blue"
-                            experience={[{ type: "Languages", icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned, way back in high school. It brings back nostalgia to write with it." },
-                                                                    { path: "ProjectIcons/Kotlin.svg", text: "At my current internship, I've had the opportunity to develop an Android app with a team in Kotlin to make server testing data more easily accessible." },
+                            experience={[{ type: "Languages", icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned in depth, way back in high school. It brings back nostalgia to write with it." },
+                                                                    { path: "ProjectIcons/Kotlin.svg", text: "At a summer internship, I had the opportunity to develop an Android app with a team in Kotlin to make server testing data more easily accessible." },
                                                                     { path: "ProjectIcons/Python.svg", text: "I also used a lot of Python at my internship for data engineering and machine learning." },
+                                                                    { path: "ProjectIcons/C.png", text: "I learned C in an Operating Systems class I took. It was a surprisingly simple class that brought together much of what I had learned previously." },
                                                                     { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java. I've used it to make some games with the Unity engine." },
-                                                                    { path: "ProjectIcons/Cpp.svg", text: "I'm currently keeping up on my C++ to prepare for an upcoming Operating Systems class I'll be taking." }] }
+                                                                    { path: "ProjectIcons/Cpp.svg", text: "C++ was my first ever exposure to any programming back in high school. Kind of funny they had us use that of all languages." }] }
                                     ]}
                         /></li>
                         <li><Skill
@@ -78,7 +78,7 @@ export default function Page() {
                             icon="ProjectIcons/DeepLearning.png"
                             color="purple"
                             experience={[{ type: "Python", icons: [{ path: "ProjectIcons/NumPy.svg", text: "NumPy is helpful for all sorts of math operations. It's been especially helpful in performing linear algrabra for making machine learning models." },
-                                                                { path: "ProjectIcons/Pandas.svg", text: "I'm currently using Pandas at my internship for handling and processing the test data we work with." },
+                                                                { path: "ProjectIcons/Pandas.svg", text: "I used Pandas at a summer internship for handling and processing the test data we worked with." },
                                                                 { path: "ProjectIcons/TensorFlow.png", text: "Python's TensorFlow library helps make machine learning simpler and more user friendly." }] },
                                         { type: "Tools", icons: [{ path: "ProjectIcons/R.svg", text: "The statistics classes I've taken relied heavily on R for computation and graph generation." },
                                                                 { path: "ProjectIcons/Matlab.svg", text: "As part of my studies in Numerical Analysis and Machine Learning, I've used Matlab to write and implement various data-handling algorithms." }] },
