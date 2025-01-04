@@ -29,7 +29,11 @@ export default function Page() {
                     />
                     <Card
                         title="Music and Podcasts"
-                        text="I listen to a lot of music on Spotify. I love everything from folk and indie, to pop and country."
+                        text="I listen to a lot of music, everything from folk and indie, to pop and country. I also listen to lots of news and tech podcasts."
+                        links={[
+                            { url: "https://open.spotify.com/playlist/62jY4wQmS6Wwp5ogTfbCtW?si=9ee8ccb9d3034a87", text: "Red Playlist" },
+                            { url: "https://open.spotify.com/playlist/64fPooHmgFDzHjpTxMEz3X?si=6f017c2c88094d93", text: "Blue Playlist" }
+                        ]}
                         image="ProjectImages/SpotifySongs.jpeg"
                         icons={["ProjectIcons/Spotify.svg"]}
                     />
