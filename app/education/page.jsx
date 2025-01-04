@@ -12,81 +12,81 @@ export default function Page() {
                     <h2 className="text-4xl font-bold underline text-gray-800">Skills</h2>
                     <ul className="w-1/2 flex flex-col gap-10 py-6">
                         <li><Skill
-                            text="DevOps"
-                            icon="ProjectIcons/DevOps.png"
-                            color="red"
-                            experience={[{ type: "IDEs", icons: [{ path: "ProjectIcons/Eclipse.svg", text: "Eclipse was my first ever IDE all the way back in high school. I learned Java and object-oriented programming on it." },
-                                                                { path: "ProjectIcons/Jupyter.png", text: "Jupyter has been very helpful for doing scientific computing with machine learning." },
-                                                                { path: "ProjectIcons/VSCode.svg", text: "VSCode is where I keep most of my codebase and projects, it's very versatile." }] },
-                                        { type: "Agile", icons: [{ path: "ProjectIcons/Jira.svg", text: "I use Jira at my current internship for project management and organization." },
-                                                                { path: "ProjectIcons/Trello.svg", text: "While working at Ion Solar, our team used Trello as a reference for all important company and process information." }] },
-                                        { type: "Tools", icons: [{ path: "ProjectIcons/Linux.png", text: "I'm using Linux at my current internship for scripting and system administration." },
-                                                                { path: "ProjectIcons/Git.svg", text: "I've used GitHub ever since high school to keep track of my achievements in software development." },
-                                                                { path: "ProjectIcons/AWS.svg", text: "I have a basic knowledge of navigating the AWS dashboard, as well as building and deploying a basic website." },
-                                                                { path: "ProjectIcons/Docker.png", text: "I've used Docker images while interfacing with most of the databases I've used." }] }
-                                    ]}
-                        /></li>
-                        <li><Skill
-                            text="Coding"
+                            text="General Programming"
                             icon="ProjectIcons/Binary.png"
-                            color="blue"
-                            experience={[{ type: "Languages", icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned in depth, way back in high school. It brings back nostalgia to write with it." },
-                                                                    { path: "ProjectIcons/Kotlin.svg", text: "At a summer internship, I had the opportunity to develop an Android app with a team in Kotlin to make server testing data more easily accessible." },
+                            color="red"
+                            experience={[{ icons: [{ path: "ProjectIcons/Java.svg", text: "Java was the first programming language I learned in depth, way back in high school." },
                                                                     { path: "ProjectIcons/Python.svg", text: "I also used a lot of Python at my internship for data engineering and machine learning." },
+                                                                    { path: "ProjectIcons/NodeJS.png", text: "Javascript is my most used language as of today. It's useful for frontend and backend." },
                                                                     { path: "ProjectIcons/C.png", text: "I learned C in an Operating Systems class I took. It was a surprisingly simple class that brought together much of what I had learned previously." },
-                                                                    { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java. I've used it to make some games with the Unity engine." },
-                                                                    { path: "ProjectIcons/Cpp.svg", text: "C++ was my first ever exposure to any programming back in high school. Kind of funny they had us use that of all languages." }] }
+                                                                    { path: "ProjectIcons/Cpp.svg", text: "C++ was my first ever exposure to any programming back in high school. Kind of funny they had us use that of all languages." },
+                                                                    { path: "ProjectIcons/CSharp.svg", text: "Picking up C# has been pretty simple with my previous base in Java. I've used it to make some games with the Unity engine." }] }
                                     ]}
                         /></li>
                         <li><Skill
-                            text="Front-End Development"
+                            text="Modern DevOps"
+                            icon="ProjectIcons/DevOps.png"
+                            color="orange"
+                            experience={[{ icons: [{ path: "ProjectIcons/Linux.png", text: "I used Linux at my previous internship for scripting and automation." },
+                                                                    { path: "ProjectIcons/Docker.png", text: "I've used Docker images while interfacing with most of the databases I've used." },
+                                                                    { path: "ProjectIcons/AWS.svg", text: "I've used AWS while building a website, also while setting up the backend for several applications." },
+                                                                    { path: "ProjectIcons/Terraform.svg", text: "Building infrastructure on AWS is much more simple when using Terraform to code it out." },
+                                                                    { path: "ProjectIcons/GoogleCloud.svg", text: "I've used several of the APIs on Google Cloud in apps, such as the Maps API and Speech-to-Text API." },
+                                                                    { path: "ProjectIcons/Git.svg", text: "I've used GitHub ever since high school to keep track of my achievements in software development." }] }
+                                    ]}
+                        /></li>
+                        <li><Skill
+                            text="Frontend Development"
                             icon="ProjectIcons/Frontend.png"
                             color="yellow"
-                            experience={[{ type: "Basics", icons: [{ path: "ProjectIcons/HTML.svg", text: "HTML is pretty simple and straightforward. I learned the basics of HTML5 my first semester of college, and I loved the class." },
+                            experience={[{ icons: [{ path: "ProjectIcons/HTML.svg", text: "HTML is pretty simple and straightforward. I learned the basics of HTML5 my first semester of college, and I loved the class." },
                                                                     { path: "ProjectIcons/CSS.svg", text: "It's fun to work with CSS and see the visual changes in a website's many moving parts." },
-                                                                    { path: "ProjectIcons/Javascript.svg", text: "Javascript is one of my most confident languages. It's wonderful to see a website come to life with interactivity and dynamic features." },
-                                                                    { path: "ProjectIcons/Typescript.png", text: "My first Typescript project was doing a full transplant from a Javascript website. It felt like performing surgery." }] },
-                                        { type: "Tools", icons: [{ path: "ProjectIcons/NodeJS.png", text: "Javascript makes a great backend for a web application when you can use Next.js." },
-                                                                { path: "ProjectIcons/Figma.svg", text: "Designing a website UI is so much better with Figma to do much of the heavy lifting." }] },
-                                        { type: "Frameworks", icons: [ { path: "ProjectIcons/Bootstrap.png", text: "Bootstrap is very helpful for getting quick and easy components with good CSS." },
-                                                                        { path: "ProjectIcons/Tailwind.svg", text: "I never really had a good grasp of CSS and how powerful it is until I started using Tailwind." },
-                                                                        { path: "ProjectIcons/React.png", text: "Writing components in React is one of the funnest parts of building a website. The concepts behind it are brillient and intuitive." },
-                                                                        { path: "ProjectIcons/NextJS.svg", text: "I always reach for Next.js and Vercel deployment when I make a new web application." }] }
+                                                                    { path: "ProjectIcons/Tailwind.svg", text: "I never really had a good grasp of CSS and how powerful it is until I started using Tailwind." },
+                                                                    { path: "ProjectIcons/Javascript.svg", text: "Javascript/TypeScript is one of my most confident languages. It's wonderful to see a website come to life with interactivity and dynamic features." },
+                                                                    { path: "ProjectIcons/React.png", text: "Writing components in React is one of the funnest parts of building a website. The concepts behind it are brillient and intuitive." },
+                                                                    { path: "ProjectIcons/NextJS.svg", text: "I always reach for Next.js and Vercel deployment when I make a new web application." }] }
                                     ]}
                         /></li>
                         <li><Skill
-                            text="Back-End Development"
+                            text="Backend Development"
                             icon="ProjectIcons/Database.png"
                             color="green"
-                            experience={[{ type: "Python", icons: [{ path: "ProjectIcons/DJango.svg", text: "I've used DJango to assist in various backend API endpoints." },
-                                                                    { path: "ProjectIcons/Flask.png", text: "I've also developed APIs with the Flask framework." },] },
-                                        { type: "BaaS", icons: [{ path: "ProjectIcons/Firebase.svg", text: "I'm familiar with Google's backend services on Firebase." },
-                                                                { path: "ProjectIcons/Supabase.png", text: "I've used Supabase's backend seervices for several full-stack projects." },] },
-                                        { type: "Databases", icons: [{ path: "ProjectIcons/MySQL.svg", text: "MySQL was the first database system I learned. It's a good foundation to get started." },
-                                                                    { path: "ProjectIcons/SQLite.png", text: "Interfacing with a SQL database via SQLite is clean and simple. Very helpful for backend development." },
+                            experience={[{ icons: [{ path: "ProjectIcons/Flask.svg", text: "I developed Flask APIs as part of an app at my previous internship." },
+                                                                    { path: "ProjectIcons/ExpressJS.svg", text: "I've used Express.js with any Node.js app I've made that needed custom APIs and a robust backend." },
+                                                                    { path: "ProjectIcons/AWSLambda.svg", text: "I'm using AWS Lambda as the backend for some of the current applications I'm doing right now." },
+                                                                    { path: "ProjectIcons/Supabase.png", text: "I've used Supabase's backend seervices for several full-stack projects." },
+                                                                    { path: "ProjectIcons/MySQL.svg", text: "MySQL was the first database system I learned. It's a good foundation to get started." },
                                                                     { path: "ProjectIcons/Postgres.svg", text: "I've used PostgreSQL databases in several web applications, thanks to its integration with Supabase's backend services." },
-                                                                    { path: "ProjectIcons/ElasticSearch.svg", text: "I'm using ElasticSearch at my current internship for data analytics." },
-                                                                    { path: "ProjectIcons/MongoDB.svg", text: "Writing transactions in MongoDB is intuitive for a software developer. I love the idea of unstructured data in the form of things like documents." },
-                                                                    { path: "ProjectIcons/Redis.svg", text: "Caching through tools like Redis is becoming ever more important as the web gets even faster, and as our web expectations become more impatient." },
-                                                                    { path: "ProjectIcons/Cassandra.png", text: "While I've worked with small amounts of data on Cassandra, I'm interested to eventually see the columner's true potential with big data." },
-                                                                    { path: "ProjectIcons/Neo4J.png", text: "Graph databases like Neo4J are a fascinating concept, especially the potential they have to contribute to machine learning." },
-                                                                    { path: "ProjectIcons/Hadoop.svg", text: "As the data we gather becomes bigger and more varied, data lake solutions like Hadoop can play a bigger role." },] }
+                                                                    { path: "ProjectIcons/Stripe.svg", text: "The current apps I'm working on also have a Stripe integration for when we start collecting payment for the service." }] }
                                     ]}
                         /></li>
                         <li><Skill
                             text="Data Science"
                             icon="ProjectIcons/DeepLearning.png"
-                            color="purple"
-                            experience={[{ type: "Python", icons: [{ path: "ProjectIcons/NumPy.svg", text: "NumPy is helpful for all sorts of math operations. It's been especially helpful in performing linear algrabra for making machine learning models." },
-                                                                { path: "ProjectIcons/Pandas.svg", text: "I used Pandas at a summer internship for handling and processing the test data we worked with." },
-                                                                { path: "ProjectIcons/TensorFlow.png", text: "Python's TensorFlow library helps make machine learning simpler and more user friendly." }] },
-                                        { type: "Tools", icons: [{ path: "ProjectIcons/R.svg", text: "The statistics classes I've taken relied heavily on R for computation and graph generation." },
-                                                                { path: "ProjectIcons/Matlab.svg", text: "As part of my studies in Numerical Analysis and Machine Learning, I've used Matlab to write and implement various data-handling algorithms." }] },
-                                        { type: "Topics", icons: [{ path: "ProjectIcons/Calculus.png", text: "I took all my calculus classes as a university student. Multivariable calculus was fascinating, especially how it related to the physical world." },
+                            color="blue"
+                            experience={[{ icons: [{ path: "ProjectIcons/Pandas.svg", text: "I used Pandas at a summer internship for handling and processing the test data we worked with." },
+                                                                { path: "ProjectIcons/Keras.svg", text: "I'm currently learning the Keras framework in my Deep Learning class for this last semester of school." },
+                                                                { path: "ProjectIcons/TensorFlow.png", text: "I'm also learning TensorFlow in the same course." },
+                                                                { path: "ProjectIcons/Tableau.svg", text: "I'm also taking a data analytics class that uses Tableau for various projects." },
+                                                                { path: "ProjectIcons/R.svg", text: "The statistics classes I've taken relied heavily on R for computation and graph generation." },
+                                                                { path: "ProjectIcons/Matlab.svg", text: "As part of my studies in Numerical Analysis and Machine Learning, I've used Matlab to write and implement various data-handling algorithms." },
+                                                                { path: "ProjectIcons/Calculus.png", text: "I took all my calculus classes as a university student. Multivariable calculus was fascinating, especially how it related to the physical world." },
                                                                 { path: "ProjectIcons/LinearAlgebra.png", text: "Linear Algebra has come up more and more as I've delved deeper into machine learning. It's the math of the future." },
                                                                 { path: "ProjectIcons/Statistics.png", text: "Statistics is simply human intuition put down in math and writing. It's very important for probability and decision-making processes." },
                                                                 { path: "ProjectIcons/NumericalAnalysis.webp", text: "Some calculations are too difficult and long to do by hand. It's interesting to learn how computers perform their calculations via Numerical Analysis." },
                                                                 { path: "ProjectIcons/MachineLearning.png", text: "All my education in Data Science seems to point towards Machine Learning and its vast potential in the future. As Artificial Intelligence becomes more prevalent, understanding it will be a great asset." },] }
+                                    ]}
+                        /></li>
+                        <li><Skill
+                            text="Other"
+                            icon="ProjectIcons/Telescope.png"
+                            color="purple"
+                            experience={[{ icons: [{ path: "ProjectIcons/RaspberryPi.svg", text: "I've used a Raspberry Pi to write Assembly for a class. I've got one right now I'm wanting to run an AI model on." },
+                                                                { path: "ProjectIcons/Arduino.svg", text: "I've used an Arduino as part of a physics class I took. Maybe I'll get another one some day when I have a basement to play around with electricity in." },
+                                                                { path: "ProjectIcons/Unity.webp", text: "I've used Unity to make a game during a 24-hour hackathon. That was the most stressful 24 hours of my life." },
+                                                                { path: "ProjectIcons/Chrome.svg", text: "As part of one of the businesses I'm building, I'm making a Google Chrome extension that people can download and use with their Gmail accounts." },
+                                                                { path: "ProjectIcons/React.png", text: "I'm currently building a mobile app with React Native for my other business idea." },
+                                                                { path: "ProjectIcons/Expo.svg", text: "The Expo framework makes development in React Native so much easier." }] }
                                     ]}
                         /></li>
                     </ul>
@@ -95,20 +95,27 @@ export default function Page() {
                     <h2 className="text-4xl font-bold underline text-gray-800">Projects</h2>
                     <ul className="w-full flex flex-col gap-10 py-6 items-center">
                         <Card
+                            title="Lambda Learning"
+                            text="A mobile app that school districts can use to administer standardized communications tests to students in special education."
+                            links={[{ url: "https://will-app-website.vercel.app/", text: "Lambda Learning" },
+                                ]}
+                            image="ProjectImages/LambdaLearning.png"
+                            icons={["ProjectIcons/React.png", "ProjectIcons/Expo.svg", "ProjectIcons/GoogleCloud.svg"]}
+                        />
+                        <Card
+                            title="ClrDoc"
+                            text="An e-commerce platform where optometrists can list and sell their glasses online."
+                            links={[{ url: "https://clrdoc.com", text: "ClrDoc" },
+                                ]}
+                            image="ProjectImages/ClrDocListing.png"
+                            icons={["ProjectIcons/React.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Supabase.png"]}
+                        />
+                        <Card
                             title="Floppy Fish Fiasco"
                             text="An obstacle course game developed at a hackathon. Fish characters jump across the screen to reach the water at the end."
                             links={[{ url: "https://www.youtube.com/watch?v=VTnqUQyWp9s", text: "Video" }]}
                             image="ProjectImages/FloppyFish.png"
                             icons={["ProjectIcons/Unity.webp", "ProjectIcons/CSharp.svg"]}
-                        />
-                        <Card
-                            title="Fantasy Foyer"
-                            text="An escape room game written at a hackathon, deployed on Vercel. Escape if you can!"
-                            links={[{ url: "https://github.com/HunterKnott/escape-room", text: "GitHub" },
-                                    // { url: "https://escape-room-hunter-knotts-projects.vercel.app/", text: "Deployment" }
-                                ]}
-                            image="ProjectImages/EscapeRoom.png"
-                            icons={["ProjectIcons/React.png", "ProjectIcons/NextJS.svg"]}
                         />
                         <Card
                             title="Picture Presser"
@@ -118,32 +125,11 @@ export default function Page() {
                             icons={["ProjectIcons/Python.svg", "ProjectIcons/Matlab.svg"]}
                         />
                         <Card
-                            title="Personal Website"
-                            text="A website hosted with AWS EC2, platformed with Wordpress, and published via the Route 53 DNS. Website isn't currently online to avoid maintenance charges."
-                            links={[{ url: "/ProjectImages/AWSWebsiteDocumentation.pdf", text: "Documentation"}]}
-                            image="ProjectImages/Paintings.png"
-                            icons={["ProjectIcons/AWS.svg", "ProjectIcons/Wordpress.svg"]}
-                        />
-                        <Card
-                            title="Cafe Connection"
-                            text="A database created to hold information for a cafe business. Written by 3 partners and I in a database class."
-                            links={[{ url: "https://github.com/simonalligatorsmith/cafesql", text: "GitHub"}]}
-                            image="ProjectImages/DatabaseDiagram.png"
-                            icons={["ProjectIcons/MySQL.svg"]}
-                        />
-                        <Card
                             title="Gravity Grid"
                             text="A 2-D game written in Java where blocks have different physical behaviors. Kind of like Minecraft!"
                             links={[{ url: "https://github.com/HunterKnott/sandGame", text: "GitHub"}]}
                             image="ProjectImages/BlockGame.png"
                             icons={["ProjectIcons/Java.svg"]}
-                        />
-                        <Card
-                            title="Subword Surfer"
-                            text="A game where a random word is picked from a list, and the user must write every word that the picked word can make."
-                            links={[{ url: "https://github.com/HunterKnott/CPPWordGame", text: "GitHub"}]}
-                            image="ProjectImages/WordGame.png"
-                            icons={["ProjectIcons/Cpp.svg"]}
                         />
                     </ul>
                 </div>

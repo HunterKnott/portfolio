@@ -6,6 +6,7 @@ export default function Skill({ text, icon, color, experience }) {
     const [iconText, setIconText] = useState(null);
     const colors = {
         red: 'bg-gradient-to-r from-red-200 via-red-100 to-red-200 border border-red-600',
+        orange: 'bg-gradient-to-r from-orange-200 via-orange-100 to-orange-200 border border-orange-600',
         blue: 'bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 border border-blue-600',
         yellow: 'bg-gradient-to-r from-yellow-200 via-yellow-100 to-yellow-200 border border-yellow-600',
         green: 'bg-gradient-to-r from-green-200 via-green-100 to-green-200 border border-green-600',
@@ -59,7 +60,7 @@ export default function Skill({ text, icon, color, experience }) {
                         </button>
                     </div>
                     <div className="absolute bg-gradient-to-t from-gray-400 via-gray-50 to-gray-400 right-0 w-1/2 h-full flex flex-col justify-between">
-                        <div className="h-5/6 w-full p-14 flex flex-col items-center justify-center">
+                        <div className="h-5/6 w-full py-14 px-12 flex flex-col items-center justify-center">
                             <h1 className="text-2xl font-bold text-gray-700 underline pb-6">My {text} Experience</h1>
                             <div className="grid grid-cols-2 gap-8">
                                 {showIcons} 
