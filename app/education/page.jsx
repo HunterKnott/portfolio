@@ -108,7 +108,7 @@ export default function Page() {
                             links={[{ url: "https://clrdoc.com", text: "ClrDoc" },
                                 ]}
                             image="ProjectImages/ClrDocListing.png"
-                            icons={["ProjectIcons/React.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Supabase.png"]}
+                            icons={["ProjectIcons/React.png", "ProjectIcons/NextJS.svg", "ProjectIcons/Postgres.svg"]}
                         />
                         <Card
                             title="Floppy Fish Fiasco"
