@@ -17,7 +17,7 @@ export default function Page() {
                             text="Building a tech startup with co-founders. We're working on a product called Octosh, where Customer Success teams can leverage AI to write emails faster."
                             links={[{ url: "https://www.octosh.com/", text: "Octosh" }, { url: "https://sandbox.ing/", text: "Sandbox" }]}
                             image="ProjectImages/SandboxGroup.jpeg"
-                            icons={["ProjectIcons/NodeJS.png", "ProjectIcons/AWS.svg", "ProjectIcons/Python.svg", "ProjectIcons/Postgres.svg"]}
+                            icons={["ProjectIcons/NodeJS.png", "ProjectIcons/AWS.svg", "ProjectIcons/Postgres.svg", "ProjectIcons/Stripe.svg"]}
                         />
                         <Card
                             title="Flex Ltd."

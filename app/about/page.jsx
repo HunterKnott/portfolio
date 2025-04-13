@@ -23,8 +23,8 @@ export default function Page() {
                     />
                     <Card
                         title="My Friends and I"
-                        text="My closest friends and I are all proud members and allies of the LGBTQ+ community."
-                        image="ProjectImages/PridePicture.jpeg"
+                        text="My friends and I love taking pictures together, every now and then I put them in ChatGPT."
+                        image="ProjectImages/GhibliCruise.png"
                         icons={["ProjectIcons/LGBTQ.png"]}
                     />
                     <Card
